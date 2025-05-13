@@ -1,4 +1,4 @@
-name: Build OFRP [beryl]
+name: Build OFRP [tanzanite][A14]
 
 on:
   workflow_dispatch:
@@ -20,10 +20,10 @@ jobs:
       uses: linastorvaldz/orangefox-builder-action@master
       with:
         FOX_SYNC_BRANCH: 12.1
-        DEVICE_TREE: https://github.com/linastorvaldz/device_xiaomi_beryl_recovery
-        DEVICE_TREE_BRANCH: fox_12.1
-        DEVICE_PATH: device/xiaomi/beryl
-        DEVICE_NAME: beryl
+        DEVICE_TREE: https://github.com/linastorvaldz/device_xiaomi_tanzanite_recovery
+        DEVICE_TREE_BRANCH: fox_12.1-U
+        DEVICE_PATH: device/xiaomi/tanzanite
+        DEVICE_NAME: tanzanite
         BUILD_TARGET: vendorboot
         TG_CHAT_ID: ${{ secrets.CHAT_ID }}
         TG_TOKEN: ${{ secrets.TG_TOKEN }}

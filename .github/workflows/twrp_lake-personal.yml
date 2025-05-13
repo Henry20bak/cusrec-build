@@ -1,4 +1,4 @@
-name: Build TWRP [lake]
+name: Build TWRP [lake][personal]
 
 on:
   workflow_dispatch:
@@ -20,8 +20,8 @@ jobs:
       uses: linastorvaldz/twrp-builder-action@master
       with:
         TWRP_SYNC_BRANCH: 12.1
-        DEVICE_TREE: https://github.com/VannTakashi/recovery_xiaomi_lake
-        DEVICE_TREE_BRANCH: lake.12-1
+        DEVICE_TREE: https://github.com/VannTakashi/device_xiaomi_lake
+        DEVICE_TREE_BRANCH: personal/twrp-12.1
         DEVICE_PATH: device/xiaomi/lake
         DEVICE_CODENAME: lake
         BUILD_TARGET: vendor_boot
