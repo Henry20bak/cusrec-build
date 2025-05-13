@@ -22,8 +22,8 @@ jobs:
         USER_NAME: eraselk
         USER_EMAIL: eraselk@proton.me
         TWRP_SYNC_BRANCH: 12.1
-        DEVICE_TREE: https://github.com/Henry20bak/recovery_xiaomi_lake
-        DEVICE_TREE_BRANCH: main
+        DEVICE_TREE: https://github.com/VannTakashi/recovery_xiaomi_lake
+        DEVICE_TREE_BRANCH: lake.12-1
         DEVICE_PATH: device/xiaomi/lake
         DEVICE_NAME: lake
         BUILD_TARGET: vendorboot
